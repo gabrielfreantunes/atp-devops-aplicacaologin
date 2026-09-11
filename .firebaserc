@@ -1,5 +1,7 @@
 {
   "projects": {
-    "default": "as2-gabriel-freire"
-  }
+    "default": "as2-gabriel-freire-devops"
+  },
+  "targets": {},
+  "etags": {}
 }
