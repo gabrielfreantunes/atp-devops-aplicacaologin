@@ -3,7 +3,7 @@ import { getAuth } from 'firebase/auth';
 import { getFirestore } from 'firebase/firestore';
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDYWiT72DZx5O-zWNvf5OD1O7P8D-ZGN4k",
+  apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
   authDomain: "as2-gabriel-freire-devops.firebaseapp.com",
   projectId: "as2-gabriel-freire-devops",
   storageBucket: "as2-gabriel-freire-devops.firebasestorage.app",
