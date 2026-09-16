@@ -16,4 +16,3 @@ jobs:
         run: |
           curl -H "Content-Type: application/json" \
             -d "{\"content\":\"Novo commit realizado na branch main do repositório ${{ github.repository }}. Commit: ${{ github.sha }}\"}" \
-            "$DISCORD_WEBHOOK_URL"
