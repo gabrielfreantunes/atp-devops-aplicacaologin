@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { Navigate, Link } from 'react-router-dom';
 import { auth } from '../firebase';
+import { Navigate, Link } from 'react-router-dom';
 import logo from '../assets/logo_puc.png';
 import '../index.css';
 
